@@ -1,0 +1,221 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 10px;
+}
+.container
+{
+    max-width: 1200px;
+    width:90%;
+    margin:auto;
+}
+.navbar
+{
+    position: fixed;
+    width:90%;
+    height:11.5vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: linear-gradient(to top left, #753682de 0%, #bf2e33cc 100%);
+}
+.nav-item 
+{
+    margin-right: 5%;
+    font-size: 2rem;
+}
+.nav-item a
+{
+    text-decoration: none;
+    color: white;
+}
+.nav-item a:hover
+{
+    font-size:2.2rem;
+}
+.showcase-image
+{
+    width:100%;
+    height: 50rem;
+}
+
+.btn
+{
+    width: 11rem;
+    height: 5rem;
+    border-radius: 40rem;
+    border: none;
+    font-size: 1.8rem;
+    /* background-color: #096e59; */
+    background: linear-gradient(to right, #096e59, #169e83, #3d9787, #5ca599, #8eccc180);
+}
+.btn a
+{
+    text-decoration: none;
+    color: white;
+}
+.btn:hover
+{
+    width: 11.5rem;
+    height: 5.5rem;
+    font-size: 2rem;
+    
+}
+.showcasebtn
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.showCaseQuatation
+{
+    position: absolute;
+    top: 58%;
+    left: 37%;
+}
+.showCaseQuatation h1
+{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #753682de;
+}
+/* ############## about ############## */
+#about
+{
+    padding-top: 9rem;
+}
+#about h1
+{
+    color: #753682de;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+}
+
+
+/* ########### MENU ########### */
+
+#menu
+{
+    padding-top: 9rem;
+}
+.food
+{
+    display: flex;
+    margin: 5rem;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.image
+{
+    width: 50%;
+}
+.image img
+{
+    width: 100%;
+    height: 20rem;
+   
+}
+.content
+{
+    width: 50%;
+    padding: 5%;
+}
+#menu h1
+{
+    margin-top: 2rem;
+   
+}
+#menu h3
+{
+    font-size: 2rem;
+    color: #f3ac13;
+    margin-top: 2rem;
+}
+#menu h2
+{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #bf2e33cc;
+}
+#menu p
+{
+    font-size: 1.5rem;
+    color: rgb(68, 67, 67);
+}
+#contact
+{
+    padding-top: 5rem;
+}
+.contact-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content h1
+{
+    color: #bf2e33ea;
+    padding-bottom: 1rem;
+    padding-top: 0.7rem;
+}
+.content p
+{
+    font-size: 1.5rem;
+}
+.Email
+{
+    font-size: 1.5rem;
+    color: black;
+}
+.c1
+{
+    font-size: 1.7rem;
+}
+.picture img
+{
+    width: 40rem;
+    height:25rem ;
+    padding-left: 3rem;
+}
+.LargeFont
+{
+    font-size: 3.5rem;
+    color: #ec710dde;
+}
+.contact-box .content
+{
+    width: 30%;
+    text-align: center;
+}
+   
+
+.footer
+{
+    height: 8rem;
+    color: white;
+    background:linear-gradient(to right,#353535,#524d4d48);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* width: 90%; */
+}
+.apps
+{
+    height: 5rem;
+    width: 20rem;
+    
+}
+.mediumFont
+{
+    font-size: 1.5rem;
+}
+
+
+
